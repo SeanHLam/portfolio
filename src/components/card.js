@@ -29,9 +29,9 @@ export default function Card({
   return (
     <>
       {type === "project" ? (
-        <div className="drop-shadow-solid outline-dark   max-md:flex-wrap mt-12 mb-8  rounded max-md:justify-center max-sm:justify-between justify-between   flex flex-center max-md:p-4   p-12  bg-sand">
+        <div className="drop-shadow-solid outline-dark   max-md:flex-wrap mt-12 mb-8  max-md:justify-center max-sm:justify-between justify-between   flex flex-center max-md:p-4   p-12  bg-sand">
           <div className=" flex justify-center    m-4 max-sm:m-4 max-md:w-64  w-80">
-            <div className="rounded outline outline-dark drop-shadow-button p-5 w-44  bg-sand">
+            <div className=" outline outline-dark drop-shadow-button p-5 w-44  bg-sand">
               <Slider {...settings}>
                 <div>
                   <Image
@@ -81,10 +81,10 @@ export default function Card({
           </div>
         </div>
       ) : (
-        <div className="drop-shadow-solid outline-dark max-md:flex-wrap mt-12 mb-24  rounded max-md:justify-center max-sm:justify-between justify-between   flex flex-center max-md:p-4   p-12  bg-sand">
+        <div className="drop-shadow-solid outline-dark max-md:flex-wrap mt-12 mb-24   max-md:justify-center max-sm:justify-between justify-between   flex flex-center max-md:p-4   p-12  bg-sand">
           <div className="m-4 max-sm:m-2 flex justify-center items-center max-md:w-64 w-80">
             <Image
-              className="rounded outline outline-dark drop-shadow-button"
+              className="outline outline-dark drop-shadow-button"
               alt="3d render of dog with construction hat"
               src="/sean.jpeg"
               width={300}

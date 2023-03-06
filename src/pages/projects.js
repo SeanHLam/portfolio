@@ -16,7 +16,7 @@ export default function Projects() {
         <Nav />
 
       <main className='flex flex-center w-full justify-center p-6 align-center items-center h-screen'>
-        <div className='drop-shadow-solid justify-center items-center flex-col flex flex-center  p-6 rounded-md bg-sand'>
+        <div className='drop-shadow-solid justify-center items-center flex-col flex flex-center  p-6  bg-sand'>
           <h1 className='text-4xl p-2  text-dark font-bold'>We Are Currently Under Construction!</h1>
           <Image alt='3d render of dog with construction hat' src='/dog.png' width={300} height={300} />
           <p className='text-xl p-2 text-dark'>
