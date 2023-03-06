@@ -23,7 +23,7 @@ export default function Card({
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,
-    fade: true,
+    
   };
 
   return (

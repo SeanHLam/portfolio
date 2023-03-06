@@ -40,10 +40,14 @@ export default function Footer() {
           <h1 className="text-4xl mb-2   text-dark font-bold font-title">
             Contact me!
           </h1>
+          <div className="max-md:justify-center flex">
           <AppButton
             onClick={() => router.push("/contact")}
             text="CONTACT..."
           ></AppButton>
+
+          </div>
+          
         </div>
       </div>
     </>
