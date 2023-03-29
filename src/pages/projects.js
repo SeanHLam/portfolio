@@ -19,10 +19,9 @@ export default function Projects() {
         <Nav />
 
       <main className='mb-4 flex flex-center flex-wrap w-full justify-center p-6 align-center items-center h-max xl:h-screen   md:h-max sm:h-screen'>
-        <PortfolioPiece />
-        <PortfolioPiece />
+  
         
-        {/* {
+        {
           projectpieces.data.map((project) => (
             <PortfolioPiece
               key={project.Title}
@@ -36,7 +35,7 @@ export default function Projects() {
             />
           ))
         }
-        */}
+       
       </main>
 
       <Footer />
