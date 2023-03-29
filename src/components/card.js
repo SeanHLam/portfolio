@@ -43,7 +43,7 @@ export default function Card({
                 </div>
                 <div>
                   <Image
-                    src="/trackStacks3.jpeg"
+                    src="/trackstacks3.jpeg"
                     alt="Image 2"
                     width={300}
                     height={300}

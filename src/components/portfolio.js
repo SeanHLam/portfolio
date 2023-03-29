@@ -51,7 +51,7 @@ const PortfolioPiece = ({
       <div
         className={`${
           showPopup ? "h-screen" : "h-0"
-        } fixed overflow-auto top-0 left-0 w-full  bg-sand-dark  z-50  transition-all ease-in-out duration-300`}
+        } fixed overflow-auto top-0 left-0 w-full  bg-sand-dark  z-50  transition-all ease-in-out duration-1000`}
       >
         <div className=" relative flex flex-col items-center h-full mx-auto mt-10 p-4 lg:w-6/12  sm:p-6 lg:p-8">
           <div className=" w-full  flex justify-end">
