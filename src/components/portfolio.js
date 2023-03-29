@@ -41,11 +41,14 @@ const PortfolioPiece = ({
         onClick={handlePopup}
         className="group m-2 overflow-none w-72 h-72  bg-sand  cursor-pointer  outline outline-dark flex justify-center drop-shadow-button  transition-all hover:translate-y-1.5 hover:translate-x-1.5 hover:drop-shadow-none"
       >
-        <h1 className="proj z-10 fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center font-title text-5xl text-sand hover:text-light-blue transition-all duration-500 ">
+        <h1 className="proj  fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center font-title text-5xl text-sand hover:text-light-blue transition-all duration-500 ">
           {title}
         </h1>
-        <div className="w-full fixed bg-dark h-full opacity-70 hover:bg-light-blue top-0 left-0 bottom-0 right-0 flex items-center justify-center transition-all duration-300" />
-        <img alt={title} className=" object-cover " src={cover} />
+        {/* <div className="w-full fixed bg-dark h-full opacity-70 hover:bg-light-blue top-0 left-0 bottom-0 right-0 flex items-center justify-center transition-all duration-300" /> */}
+        
+          <img alt={title} className=" object-cover " src={cover} />
+   
+        
       </div>
 
       <div
