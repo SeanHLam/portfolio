@@ -32,6 +32,27 @@ main{
 
 }
 
+.embla {
+  overflow: hidden;
+ 
+
+
+
+
+}
+.embla__container {
+  display: flex;
+
+
+
+}
+.embla__slide {
+  flex: 0 0 100% ; /* Slide covers 200px of the viewport */
+  min-width: 0;
+  max-width: 60%;
+  padding: 0 1em;
+ 
+}
 
 .Typewriter {
   display: flex;

@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '@/components/nav'
-
+import PortfolioPiece from '@/components/portfolio'
+import projectpieces from '@/data/projects.json'
+import Footer from '@/components/footer'
 
 export default function Projects() {
+ 
   return (
     <>
       <Head>
@@ -15,19 +18,26 @@ export default function Projects() {
 
         <Nav />
 
-      <main className='flex flex-center w-full justify-center p-6 align-center items-center h-screen'>
-        <div className='drop-shadow-solid justify-center items-center flex-col flex flex-center  p-6  bg-sand'>
-          <h1 className='text-4xl p-2  text-dark font-bold'>We Are Currently Under Construction!</h1>
-          <Image alt='3d render of dog with construction hat' src='/dog.png' width={300} height={300} />
-          <p className='text-xl p-2 text-dark'>
-            In the mean time check out my portfolio at: <a className='text-light-blue hover:text-dark-blue' href='https://portfolio.seanlam.ca/'> portfolio.seanlam.ca</a>
-
-          </p>
-
-        </div>
-
+      <main className='mb-4 flex flex-center flex-wrap w-full justify-center p-6 align-center items-center h-max xl:h-screen   md:h-max sm:h-screen'>
+       
+        {
+          projectpieces.data.map((project) => (
+            <PortfolioPiece
+              key={project.Title}
+              title={project.Title}
+              text={project.Text}
+              tags={project.Tags}
+              links={project.Links}
+              images={project.Images}
+              role={project.Role}
+              cover={project.Cover}
+            />
+          ))
+        }
+       
       </main>
 
+      <Footer />
 
     </>
   )

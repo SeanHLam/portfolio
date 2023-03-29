@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "Title": "Trackstacks",
+      "Text": "TrackStacks is a task-tracking app aimed at people with ADHD. Completing tasks rewards you with points that can be spent on decoration items in the app. TrackStacks was built with Expo and uses Firebase to store user data. Creating the To-do feature took the longest but was really rewarding to complete.",
+      "Tags": "JavaScript, Expo, React Native, Firebase",
+      "Images": [
+        "/trackstacks1.jpeg",
+        "/trackstacks2.jpeg",
+        "/trackstacks3.jpeg",
+        "/trackstacks4.jpeg",
+        "/trackstacks5.png"
+      ],
+      "Cover": "/trackstacks4.jpeg",
+      "Links": [
+        {
+          "Link": "https://github.com/SeanHLam/TrackStacks",
+          "Site": "GitHub"
+        }
+      ],
+      "Role": "Lead web developer – December 2022"
+    },
+    {
+      "Title": "Hi, You!",
+      "Text": "Hi, You! is a small-scale social media site where you can only post in haikus. The front-end was created with Next.js and the back-end was created using Prisma and Postgres.",
+      "Tags": "Next.js, Postgres, Prisma",
+      "Images": ["/hiyou.png", "/hiyou2.png"],
+      "Cover": "/hiyou.png",
+      "Links": [
+        {
+          "Link": "https://github.com/SeanHLam/hiyou",
+          "Site": "GitHub"
+        }
+      ],
+      "Role": "Full stack developer – February 2023"
+    },
+    {
+      "Title": "ORNG",
+      "Text": "ORNG is a replica of a social media app like Twitter. This project was built with nextJS and uses SQLite3 to manage the backend server that stores player information. ORNG required my team to plan how our database would work before starting which paid off when we started coding. ",
+      "Tags": "JavaScript, NextJS, Social media, SQLite3",
+      "Images": [
+        "/orng1.png",
+        "/orng2.png",
+        "/orng3.png",
+        "/orng4.png",
+        "/orng5.png"
+      ],
+      "Cover": "/orng3.png",
+      "Links": [
+        {
+          "Link": "https://github.com/SeanHLam/comp_orange_client",
+          "Site": "GitHub"
+        }
+      ],
+      "Role": "Full Stack web developer – December 2022"
+    },
+    {
+      "Title": "Jxnbell",
+      "Text": "A portfolio for musician Jxnbell. The website includes his released music, news posts, and a contact page. I built it in WordPress so the owner in the future can easily update it. The site also has components that use javascript due to WordPress’ limitations.",
+      "Tags": "JavaScript, WordPress, Elementor",
+      "Images": ["/jxn1.png", "/jxn2.png", "/jxn3.png", "/jxn4.png"],
+      "Cover": "/jxn3.png",
+      "Links": [
+        {
+          "Link": "https://www.jxnbell.com/",
+          "Site": "Globe"
+        }
+      ],
+      "Role": "Solo WordPress developer  – December 2022"
+    },
+    {
+        "Title": "FrogLink",
+        "Text": "FrogLink is a stylized map of the TransLink Expo Line using Leaflet. Each stop marker can be clicked to reveal the name of the station. It was a good learning experience for Leaflet. ",
+        "Tags": "JavaScript, NextJS, Leaflet, React Native",
+        "Images": [
+        "/frog1.png", 
+        "/frog2.png",
+        "/frog3.png",
+        "/frog4.png"
+     ],
+        "Cover": "/frog2.png",
+        "Links": [
+          {
+            "Link": "https://github.com/SeanHLam/expo_line_map",
+            "Site": "GitHub"
+          }
+        ],
+        "Role": "Solo Front-end web developer  – January 2023"
+      },
+      {
+        "Title": "TinyPaws",
+        "Text": "TinyPaws is a project where we created a WordPress site for a fictitious cat sanctuary. TInyPaws includes info about the organization, a forum, adoption contact forms, and a donations page. This was my first foray into using WordPress and acted as a great learning experience on the wide breadth of features WordPress sites have to offer.",
+        "Tags": "JavaScript, React Native, nextJS, Figma",
+        "Images": [
+        "/paws1.png", 
+        "/paws2.png",
+        "/paws3.png",
+        "/paws4.png"
+      
+     ],
+        "Cover": "/paws4.png",
+        "Links": [
+   
+        ],
+        "Role": "WordPress developer – May 2022"
+      },
+      {
+        "Title": "RPS",
+        "Text": "RPS simulates the classic game of rock paper scissors by playing against the computer. This project was built with nextJS and uses SQLite3 to manage the backend server that stores player information. I used this project to learn SQL so managing a database was tricky at first but I quickly got the hang of it. ",
+        "Tags": "JavaScript, NextJS, SQLite3",
+        "Images": [
+        "/rps1.png", 
+        "/rps2.png",
+        "/rps3.png",
+        "/rps4.png",
+        "/rps5.png"
+
+     
+      
+     ],
+        "Cover": "/rps2.png",
+        "Links": [
+            {
+                "Link": "https://github.com/bhail300/WebDev3_RPS",
+                "Site": "GitHub"
+              }
+        ],
+        "Role": "Back-end web developer – November 2022"
+      },
+      {
+        "Title": "MindFull",
+        "Text": "MindFull is a project that surveys people on their current moods to gauge how they’re feeling. It also includes information about mental well-being and fun activities to mess around with. My favourite part about working on TinyPaws was learning how to make a quiz by storing user answers. ",
+        "Tags": "JavaScript, React Native, nextJS, Figma",
+        "Images": [
+        "/mindfull1.jpeg", 
+        "/mindfull2.jpeg",
+        "/mindfull3.jpeg",
+        "/mindfull4.jpeg",
+        "/mindfull5.png"
+
+   
+      
+     ],
+        "Cover": "/mindfull4.jpeg",
+        "Links": [
+            {
+                "Link": "https://github.com/SeanHLam/mdia2109_mindfull",
+                "Site": "GitHub"
+              }
+        ],
+        "Role": "Front-end web developer – May 2022"
+      }
+  ]
+}

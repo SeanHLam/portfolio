@@ -43,7 +43,7 @@ export default function Card({
                 </div>
                 <div>
                   <Image
-                    src="/mindfull.jpeg"
+                    src="/trackStacks3.jpeg"
                     alt="Image 2"
                     width={300}
                     height={300}
@@ -103,12 +103,12 @@ export default function Card({
               me to continuously hone my skills. I love to create anything that
               helps people, while also having some fun along the way!
             </p>
-            <AppButton
+            {/* <AppButton
               text="MORE ABOUT ME"
               onClick={() => router.push("/projects")}
               color="blue"
               size="medium"
-            />
+            /> */}
           </div>
         </div>
       )}

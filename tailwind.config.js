@@ -19,7 +19,7 @@ module.exports = {
       dropShadow: {
         'none': '0 0 0 rgba(22, 22, 29, 1)',
         'solid': '.8rem .8rem 0 rgba(22, 22, 29, 1)',
-        'sand': '.25rem .25rem 0 rgba(243, 243, 247, 1)',
+        'sand': '.25rem .25rem 0 #E7E7EA',
         'button': '.25rem .25rem 0 rgba(22, 22, 29, 1)',
         '4xl': [
             '0 35px 35px rgba(22, 22, 29, 0.25)',
@@ -27,7 +27,8 @@ module.exports = {
         ]
       },
       colors: {
-        'sand': '#F3F3F7',
+        // 'sand': '#F3F3F7',
+        'sand': '#E7E7EA',
         'sand-dark': '#E7E7EA',
         'light-blue': '#02B0F3',
         'dark': '#16161d',
