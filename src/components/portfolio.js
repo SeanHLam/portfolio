@@ -72,34 +72,25 @@ const PortfolioPiece = ({
             </button>
           </div>
 
-          {images.length > 1 ? (
-            
-              <ImageCarousel images={images} />
-           
-          ) : (
-            <Image alt={title} src={images[0]} width={200} height={200} />
-          )}
+        
 
-          {/* <Image src={images[0]} width={200} height={200} /> */}
+        
 
           <div className="pt-4 mt-8 text-left  sm:pt-0">
             <h2 className="text-4xl font-title text-dark mb-1">{title}</h2>
-            <p className="text-dark text-body leading-relaxed mb-2">
+            
+            <div className="flex  items-end">
+            <p className="text-dark text-body leading-relaxed mr-2 mb-2">
               <b>{role}</b>
             </p>
-            <p className="text-dark text-body leading-relaxed mb-4">{text}</p>
-            <div className="flex justify-between flex-col  sm:flex-row">
-              <p className="text-dark text-body leading-relaxed mb-4">
-                <b>Tags:</b> {tags}
-              </p>
-              <div className="flex">
-                {links.map((link) => (
+
+            {links.map((link) => (
                   <a
                     key={link.Link}
                     href={link.Link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-dark text-body leading-relaxed m-1 mb-4"
+                    className="text-dark text-body "
                   >
                     {link.Site === "GitHub" ? (
                       <FaGithub
@@ -114,8 +105,27 @@ const PortfolioPiece = ({
                     )}
                   </a>
                 ))}
-              </div>
             </div>
+            
+            
+            <p className="text-dark text-body leading-relaxed mb-4">{text}</p>
+            <div className="flex justify-between flex-col  sm:flex-row">
+              <p className="text-dark text-body leading-relaxed mb-4">
+                <b>Tags:</b> {tags}
+              </p>
+              <div className="flex">
+               
+                
+              </div>
+              
+            </div>
+            {images.length > 1 ? (
+            
+            <ImageCarousel images={images} />
+         
+        ) : (
+          <Image alt={title} src={images[0]} width={200} height={200} />
+        )}
           </div>
         </div>
       </div>

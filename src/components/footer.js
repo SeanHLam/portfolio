@@ -54,7 +54,7 @@ export default function Footer() {
           <h1 className="text-4xl mb-2   text-dark font-bold font-title">
             Contact me!
           </h1>
-          <div className="max-md:justify-center flex">
+          <div className="max-md:justify-center justify-center flex">
             <Popup text="EMAIL..." />
           </div>
         </div>
