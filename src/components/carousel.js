@@ -31,7 +31,7 @@ function ImageCarousel({
 
  
   return (
-    <div className="outline outline-dark drop-shadow-button mb-8  bg-sand">
+    <div className="w-60 md:w-max  xl:w-max outline outline-dark drop-shadow-button mb-8  bg-sand">
          
       <ImageGallery showFullscreenButton={false} showPlayButton={false} items={images}/>
 

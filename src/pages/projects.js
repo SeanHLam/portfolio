@@ -13,6 +13,7 @@ export default function Projects() {
         <title>Sean Lam</title>
         <meta name="description" content="Sean Lam's Portfolio Site" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
         <link rel="icon" href="/favicon.png" />
       </Head>
 

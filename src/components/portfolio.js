@@ -81,9 +81,9 @@ const PortfolioPiece = ({
       <div
         className={`${
           showPopup ? "h-screen" : "h-0"
-        } fixed overflow-auto top-0 left-0 w-full  bg-sand-dark  z-50  transition-all ease-in-out duration-1000`}
+        }   sm:p-0 fixed overflow-auto top-0 left-0 w-screen  bg-sand-dark  z-50  transition-all ease-in-out duration-1000`}
       >
-        <div className=" relative flex flex-col items-center h-full mx-auto p-4 lg:w-6/12  sm:p-6 lg:p-8">
+        <div className=" relative flex flex-col items-center h-full mx-auto  lg:w-6/12  ">
           <div className=" w-full  flex justify-end">
             <button onClick={handlePopup} className="mb-8 pt-4 ">
               <svg
@@ -106,7 +106,7 @@ const PortfolioPiece = ({
 
         
 
-          <div className="pt-4 text-left  sm:pt-0">
+          <div className="pt-4 mx-4 text-left  sm:pt-0">
             <h2 className="text-4xl font-title text-dark mb-1">{title}</h2>
             
             <div className="flex  items-end">
@@ -146,6 +146,7 @@ const PortfolioPiece = ({
           
               
             </div>
+            <div className="flex justify-center items-center">
             {images.length > 1 ? (
             
             <ImageCarousel images={images} />
@@ -153,6 +154,8 @@ const PortfolioPiece = ({
         ) : (
           <Image alt={title} src={images[0]} width={200} height={200} />
         )}
+            </div>
+        
           </div>
         </div>
       </div>

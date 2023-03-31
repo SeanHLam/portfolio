@@ -15,7 +15,7 @@ html, body{
   background-image: url("/canvas_grid.png");
   background-color: #02B0F3;
   background-repeat: repeat;
-  overscroll-behavior: none;
+
 }
 
 html{
@@ -35,6 +35,40 @@ main{
   position: relative;
   z-index: 1;
 
+}
+
+.image-gallery-icon {
+  color: #E7E7EA;
+  transition: all .3s ease-out;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  z-index: 4;
+
+
+@media (hover: hover) and (pointer: fine) {
+    &:hover {
+      color: #02B0F3;
+      .image-gallery-svg {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+ 
+}
+
+.image-gallery-icon:hover {
+  color: #02B0F3;
+  
+ 
+}
+
+.image-gallery {
+  width: 100%;
 }
 
 .cardbg{
