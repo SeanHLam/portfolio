@@ -5,11 +5,26 @@
       "Text": "TrackStacks is a task-tracking app aimed at people with ADHD. Completing tasks rewards you with points that can be spent on decoration items in the app. TrackStacks was built with Expo and uses Firebase to store user data. Creating the To-do feature took the longest but was really rewarding to complete.",
       "Tags": "JavaScript, Expo, React Native, Firebase",
       "Images": [
-        "/trackstacks1.jpeg",
-        "/trackstacks2.jpeg",
-        "/trackstacks3.jpeg",
-        "/trackstacks4.jpeg",
-        "/trackstacks5.png"
+        {
+          "original": "/trackstacks1.jpeg",
+          "thumbnail": "/trackstacks1.jpeg"
+        },
+        {
+          "original": "/trackstacks2.jpeg",
+          "thumbnail": "/trackstacks2.jpeg"
+        },
+        {
+          "original": "/trackstacks3.jpeg",
+          "thumbnail": "/trackstacks3.jpeg"
+        },
+        {
+          "original": "/trackstacks4.jpeg",
+          "thumbnail": "/trackstacks4.jpeg"
+        },
+        {
+          "original": "/trackstacks5.png",
+          "thumbnail": "/trackstacks5.png"
+        }
       ],
       "Cover": "/trackstacks4.jpeg",
       "Links": [
@@ -24,7 +39,18 @@
       "Title": "Hi, You!",
       "Text": "Hi, You! is a small-scale social media site where you can only post in haikus. The front-end was created with Next.js and the back-end was created using Prisma and Postgres.",
       "Tags": "Next.js, Postgres, Prisma",
-      "Images": ["/hiyou.png", "/hiyou2.png"],
+      "Images": [
+        {
+          "original": "/hiyou.png",
+          "thumbnail": "/hiyou.png"
+        },
+        {
+          "original": "/hiyou2.png",
+          "thumbnail": "/hiyou2.png"
+        }
+      
+        
+      ],
       "Cover": "/hiyou.png",
       "Links": [
         {
@@ -39,11 +65,27 @@
       "Text": "ORNG is a replica of a social media app like Twitter. This project was built with nextJS and uses SQLite3 to manage the backend server that stores player information. ORNG required my team to plan how our database would work before starting which paid off when we started coding. ",
       "Tags": "JavaScript, NextJS, Social media, SQLite3",
       "Images": [
-        "/orng1.png",
-        "/orng2.png",
-        "/orng3.png",
-        "/orng4.png",
-        "/orng5.png"
+        {
+          "original": "/orng1.png",
+          "thumbnail": "/orng1.png"
+        },
+        {
+          "original": "/orng2.png",
+          "thumbnail": "/orng2.png"
+        },
+        {
+          "original": "/orng3.png",
+          "thumbnail": "/orng3.png"
+        },
+        {
+          "original": "/orng4.png",
+          "thumbnail": "/orng4.png"
+        },
+        {
+          "original": "/orng5.png",
+          "thumbnail": "/orng5.png"
+        }
+      
       ],
       "Cover": "/orng3.png",
       "Links": [
@@ -58,7 +100,24 @@
       "Title": "Jxnbell",
       "Text": "A portfolio for musician Jxnbell. The website includes his released music, news posts, and a contact page. I built it in WordPress so the owner in the future can easily update it. The site also has components that use javascript due to WordPress’ limitations.",
       "Tags": "JavaScript, WordPress, Elementor",
-      "Images": ["/jxn1.png", "/jxn2.png", "/jxn3.png", "/jxn4.png"],
+      "Images": [
+        {
+          "original": "/jxn1.png",
+          "thumbnail": "/jxn1.png"
+        },
+        {
+          "original": "/jxn2.png",
+          "thumbnail": "/jxn2.png"
+        },
+        {
+          "original": "/jxn3.png",
+          "thumbnail": "/jxn3.png"
+        },
+        {
+          "original": "/jxn4.png",
+          "thumbnail": "/jxn4.png"
+        }
+       ],
       "Cover": "/jxn3.png",
       "Links": [
         {
@@ -73,10 +132,23 @@
         "Text": "FrogLink is a stylized map of the TransLink Expo Line using Leaflet. Each stop marker can be clicked to reveal the name of the station. It was a good learning experience for Leaflet. ",
         "Tags": "JavaScript, NextJS, Leaflet, React Native",
         "Images": [
-        "/frog1.png", 
-        "/frog2.png",
-        "/frog3.png",
-        "/frog4.png"
+          {
+            "original": "/frog1.png",
+            "thumbnail": "/frog1.png"
+          },
+          {
+            "original": "/frog2.png",
+            "thumbnail": "/frog2.png"
+          },
+          {
+            "original": "/frog3.png",
+            "thumbnail": "/frog3.png"
+          },
+          {
+            "original": "/frog4.png",
+            "thumbnail": "/frog4.png"
+          }
+       
      ],
         "Cover": "/frog2.png",
         "Links": [
@@ -92,10 +164,23 @@
         "Text": "TinyPaws is a project where we created a WordPress site for a fictitious cat sanctuary. TInyPaws includes info about the organization, a forum, adoption contact forms, and a donations page. This was my first foray into using WordPress and acted as a great learning experience on the wide breadth of features WordPress sites have to offer.",
         "Tags": "JavaScript, React Native, nextJS, Figma",
         "Images": [
-        "/paws1.png", 
-        "/paws2.png",
-        "/paws3.png",
-        "/paws4.png"
+          {
+            "original": "/paws1.png",
+            "thumbnail": "/paws1.png"
+          },
+          {
+            "original": "/paws2.png",
+            "thumbnail": "/paws2.png"
+          },
+          {
+            "original": "/paws3.png",
+            "thumbnail": "/paws3.png"
+          },
+          {
+            "original": "/paws4.png",
+            "thumbnail": "/paws4.png"
+          }
+       
       
      ],
         "Cover": "/paws4.png",
@@ -109,13 +194,27 @@
         "Text": "RPS simulates the classic game of rock paper scissors by playing against the computer. This project was built with nextJS and uses SQLite3 to manage the backend server that stores player information. I used this project to learn SQL so managing a database was tricky at first but I quickly got the hang of it. ",
         "Tags": "JavaScript, NextJS, SQLite3",
         "Images": [
-        "/rps1.png", 
-        "/rps2.png",
-        "/rps3.png",
-        "/rps4.png",
-        "/rps5.png"
+          {
+            "original": "/rps1.png",
+            "thumbnail": "/rps1.png"
+          },
+          {
+            "original": "/rps2.png",
+            "thumbnail": "/rps2.png"
+          },
+          {
+            "original": "/rps3.png",
+            "thumbnail": "/rps3.png"
+          },
+          {
+            "original": "/rps4.png",
+            "thumbnail": "/rps4.png"
+          },
+          {
+            "original": "/rps5.png",
+            "thumbnail": "/rps5.png"
+          }
 
-     
       
      ],
         "Cover": "/rps2.png",
@@ -132,11 +231,26 @@
         "Text": "MindFull is a project that surveys people on their current moods to gauge how they’re feeling. It also includes information about mental well-being and fun activities to mess around with. My favourite part about working on TinyPaws was learning how to make a quiz by storing user answers. ",
         "Tags": "JavaScript, React Native, nextJS, Figma",
         "Images": [
-        "/mindfull1.jpeg", 
-        "/mindfull2.jpeg",
-        "/mindfull3.jpeg",
-        "/mindfull4.jpeg",
-        "/mindfull5.png"
+        {
+            "original": "/mindfull1.jpeg",
+            "thumbnail": "/mindfull1.jpeg"
+          },
+          {
+            "original": "/mindfull2.jpeg",
+            "thumbnail": "/mindfull2.jpeg"
+          },
+          {
+            "original": "/mindfull3.jpeg",
+            "thumbnail": "/mindfull3.jpeg"
+          },
+          {
+            "original": "/mindfull4.jpeg",
+            "thumbnail": "/mindfull4.jpeg"
+          },
+          {
+            "original": "/mindfull5.png",
+            "thumbnail": "/mindfull5.png"
+        }
 
    
       

@@ -8,7 +8,7 @@ import Footer from '@/components/footer'
 export default function Projects() {
  
   return (
-    <>
+    <div className='h-max'>
       <Head>
         <title>Sean Lam</title>
         <meta name="description" content="Sean Lam's Portfolio Site" />
@@ -18,7 +18,7 @@ export default function Projects() {
 
         <Nav />
 
-      <main className='mb-4 flex flex-center flex-wrap w-full justify-center p-6 align-center items-center h-max xl:h-screen   md:h-max sm:h-screen'>
+      <main className='mb-4 flex flex-center flex-wrap w-full justify-center p-6 align-center items-center h-max xl:h-screen   md:h-screen sm:h-screen'>
   
         
         {
@@ -38,8 +38,8 @@ export default function Projects() {
        
       </main>
 
-      <Footer />
-
-    </>
+     
+ <Footer />
+    </div>
   )
 }
