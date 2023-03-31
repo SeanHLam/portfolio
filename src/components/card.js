@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 export default function Card({
   title,
   type = "project",
@@ -32,6 +33,10 @@ export default function Card({
         <div className="drop-shadow-solid outline-dark   max-md:flex-wrap mt-12 mb-8  max-md:justify-center max-sm:justify-between justify-between   flex flex-center max-md:p-4   p-12  bg-sand">
           <div className=" flex justify-center    m-4 max-sm:m-4 max-md:w-64  w-80">
             <div className=" outline outline-dark drop-shadow-button p-5 w-44  bg-sand">
+             
+             <div>
+              
+             </div>
               <Slider {...settings}>
                 <div>
                   <Image
@@ -69,7 +74,7 @@ export default function Card({
               I am proficient with React, Next.js, and React Native. I also have
               experience with the back-end, using Firebase, Prisma, and MySQL.
               My favourite type of projects are ones aimed towards helping
-              others. My favourite project of mine is the app TrackStacks is a
+              others. My favourite project of mine is the app TrackStacks which is a
               to-do app for people with ADHD.
             </p>
             <AppButton
